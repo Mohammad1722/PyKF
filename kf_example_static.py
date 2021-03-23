@@ -7,7 +7,6 @@ mu_x = 5  # mean of X (true value)
 mu_y = 0  # mean of Y (true value)
 sigma_x = 0.3  # standard deviation of X
 sigma_y = 0.2  # standard deviation of Y
-nn = 20
 
 x_measured = np.random.normal(mu_x, sigma_x, ns)  # simulate noisy sensor measurements for X
 y_measured = np.random.normal(mu_y, sigma_y, ns)  # simulate noisy sensor measurements for Y
