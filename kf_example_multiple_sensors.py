@@ -7,7 +7,7 @@ gen = np.random.default_rng()
 # gen = np.random.default_rng(seed=951753)
 
 ''' Setup variables '''
-ns = 1000  # number of samples
+ns = 50  # number of samples
 
 mu_pos = 20  # True position 
 sigma2_s1 = 10  # variance of first sensor (very noisy)
